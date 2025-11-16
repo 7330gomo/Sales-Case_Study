@@ -68,7 +68,7 @@ Created pivot tables and charts in Excel to visualise performance trends.
 Quantity vs sales comparing January and November
 
 # Insights Found
-1. January vs November
+1. January VS November
 
 -January showed stable but moderate sales on non-promotional days.
 
@@ -76,19 +76,19 @@ Quantity vs sales comparing January and November
 
 -Promotions in November significantly boosted both sales volume and overall revenue.
 
-2. Promotional vs Non-Promotional Days
+2. Promotional vs Non-Promotional Days:
 
 -Promotional days had much higher quantity sold, proving strong customer responsiveness.
 
 -However, sales price per unit decreased, meaning profit margins need careful monitoring.
 
-3. Overall Sales Behaviour
+3. Overall Sales Behaviour:
 
 -The product performs better in total revenue during promotions but better in margin per unit during regular pricing.
 
 -Average selling price across the full dataset remained consistent despite daily fluctuations.
 
-4. Price Elasticity of Demand (PED)
+4. **Price Elasticity of Demand (PED):*
 
 -PED values showed that demand is elastic during promotions: small price drops created big increases in quantity sold.
 
@@ -96,8 +96,10 @@ Quantity vs sales comparing January and November
 
 # Tools Used
 
-Data Analysis: SQL
+**Planning:** Miro
 
-Visualization: Excel charts
+**Data Processing Platform:** Snowflake
 
-Reporting: PowerPoint
+**Data Visualization:** Microsoft Excel
+
+**Presentation:** Microsoft PowerPoint
