@@ -1,3 +1,66 @@
+--Exploratory Data Analysis
+
+--To check the begining date of sales
+  SELECT min(date) 
+FROM
+  CASE_STUDY4.SALES.DATA;
+  
+
+--To check the recent date of sales
+  SELECT min(date) 
+FROM
+  CASE_STUDY4.SALES.DATA;
+
+  
+--To check day difference between the start date and recent datw 
+SELECT
+  DATEDIFF(DAY,'1/1/2014', '9/9/2016') AS Number_of_sales_days
+  FROM CASE_STUDY4.SALES.DATA;
+  
+
+---To check distinct sales per unit 
+SELECT
+ DISTINCT(SALES / QUANTITY_SOLD) AS Distinct_unit_sales 
+ FROM CASE_STUDY4.SALES.DATA;
+ 
+
+ ---To check total sales
+SELECT
+ SUM(SALES) AS TOTAL_SALES
+ FROM CASE_STUDY4.SALES.DATA;
+ 
+
+
+ 
+  ---To check total quntities
+SELECT
+ SUM(quantity_sold) AS TOTAL_QUANTITIES
+ FROM CASE_STUDY4.SALES.DATA;
+
+ 
+
+  ---To check total cost of sales
+SELECT
+ SUM(cost_of_sales) AS TOTAL_Cost_of_sales
+ FROM CASE_STUDY4.SALES.DATA;
+ 
+ ---To find out the avg_price of all sales
+SELECT
+AVG(186909828.25688/5279872) AS Avg_unit_price
+ FROM CASE_STUDY4.SALES.DATA;
+
+
+ --- To check MAX percentage_gross_profit
+ SELECT
+MAX((SALES - COST_OF_SALES )/ SALES * 100) AS Percentage_gross_profit,
+ FROM CASE_STUDY4.SALES.DATA;
+
+ --- To check MIN percentage_gross_profit
+ SELECT
+MIN((SALES - COST_OF_SALES )/ SALES * 100) AS Percentage_gross_profit,
+ FROM CASE_STUDY4.SALES.DATA;
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --- CODE FOR THE YEAR 2016
 
 
